@@ -1,0 +1,131 @@
+body {
+  background-color: cadetblue;
+  display: block;
+  margin: 0 auto;
+}
+
+header {
+  display: block;
+  text-align: center;
+  font-family: "Courier New", Courier, monospace;
+  font-size: larger;
+  font-weight: bolder;
+}
+
+.date-format {
+  border: 25px;
+}
+
+.container {
+  color: ffff;
+}
+
+.search-bar {
+  padding-top: 50px;
+  padding-bottom: 50px;
+  padding-right: 700px;
+}
+
+.btn {
+  border: 2px solid cadetblue;
+
+  background-color: burlywood;
+}
+
+.card-today {
+  position: relative;
+  bottom: 80px;
+  text-align: center;
+}
+
+.card-yuma {
+  background-color: darkgoldenrod;
+  border-radius: 40px;
+  margin-top: 50px;
+}
+.card-title {
+  font-family: "Courier New", Courier, monospace;
+  font-size: 50px;
+  text-decoration: underline;
+  font-weight: bolder;
+}
+
+.card-subtitle {
+  font-family: "Courier New", Courier, monospace;
+  font-size: 40px;
+}
+
+.card-text-one,
+.card-text-two,
+ul {
+  font-family: "Courier New", Courier, monospace;
+  font-size: 30px;
+  font-weight: bold;
+}
+
+.card-quote {
+  text-align: center;
+  position: relative;
+  top: 40px;
+}
+.card-body-quote {
+  font-family: "Courier New", Courier, monospace;
+  font-size: 40px;
+  background-color: darkgoldenrod;
+  border: 5px solid darkgoldenrod;
+  font-weight: bold;
+}
+.card-header {
+  background-color: grey;
+  font-weight: bold;
+}
+.blockquote-footer {
+  font-family: "Courier New", Courier, monospace;
+  font-size: 17px;
+  color: black;
+  font-weight: bold;
+}
+
+.forecast-card {
+  padding-right: 900px;
+  position: relative;
+  left: 700px;
+  bottom: 500px;
+}
+
+.column {
+  display: block;
+  margin: 0 auto;
+  position: relative;
+  left: 700px;
+  bottom: 550px;
+}
+
+.card {
+  border: 45px;
+}
+
+.card-body {
+  font-family: "Courier New", Courier, monospace;
+  background-color: darkgoldenrod;
+  font-weight: bold;
+}
+
+.myname {
+  text-align: center;
+  font-style: italic;
+}
+
+ul {
+  list-style: none;
+}
+
+.flink {
+  text-decoration: none;
+  color: black;
+}
+
+.clink {
+  text-decoration: none;
+  color: black;
+}
