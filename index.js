@@ -35,7 +35,6 @@ let month = months[now.getMonth()];
 header.innerHTML = `Today is ${day} ${month} ${date}th </br> Current time is ${hours}:${minutes}:${seconds}`;
 
 function displayCurrentWeather(response) {
-  console.log(response.data);
   let location = document.querySelector("#city");
   let temperature = document.querySelector("#temperature");
   let speed = document.querySelector("#windSpeed");
