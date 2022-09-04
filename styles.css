@@ -83,7 +83,7 @@ ul {
 .forecast-card {
   position: relative;
   left: 593px;
-  bottom: 500px;
+  top: 500px;
   text-decoration: underline;
 }
 
