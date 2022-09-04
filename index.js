@@ -38,15 +38,13 @@ function displayForecast() {
   let forecastElement = document.querySelector("#forecast");
   let forecastHTML = "";
   let days = ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday"];
-  days.forEach(function (day) {
+  days.forEach(function (days) {
     forecastHTML =
       forecastHTML +
       `
 <div class="card">
   <div class="card-body">
 <h2><strong>5-Day Forecast</strong></h2> 
-
-      
 <div class="column">
 <div class="card" style="width: 12rem">
  <div class="card-body">
