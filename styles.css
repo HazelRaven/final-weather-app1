@@ -87,13 +87,6 @@ ul {
   padding-bottom: 900px;
 }
 
-.column {
-  display: block;
-  margin: 0 auto;
-  position: relative;
-  left: 700px;
-  bottom: 550px;
-}
 .card {
   border: 45px;
 }
