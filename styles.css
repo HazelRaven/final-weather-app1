@@ -89,6 +89,7 @@ ul {
 
 .card {
   border: 45px;
+  padding-bottom: 100px;
 }
 .card-body {
   font-family: "Courier New", Courier, monospace;
