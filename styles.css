@@ -86,6 +86,7 @@ ul {
   position: relative;
   left: 700px;
   bottom: 500px;
+  text-decoration: underline;
 }
 
 .column {
@@ -104,7 +105,6 @@ ul {
   font-family: "Courier New", Courier, monospace;
   background-color: darkgoldenrod;
   font-weight: bold;
-  text-decoration: underline;
 }
 
 .myname {
