@@ -45,6 +45,7 @@ style="width: 12rem">
 <h5 class="Monday"><strong>Mon</strong></h5>
  <p class="card-text">L: 92&#176; H: 110&#176;</p>
  </div>
+</div>
 </div>`;
 }
 
