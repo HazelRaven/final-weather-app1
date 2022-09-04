@@ -91,7 +91,7 @@ ul {
   border: 45px;
 }
 
-.weekday {
+.card-today {
   font-family: "Courier New", Courier, monospace;
   background-color: darkgoldenrod;
   font-weight: bold;
