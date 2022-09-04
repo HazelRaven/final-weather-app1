@@ -82,7 +82,7 @@ ul {
 
 .forecast-card {
   position: relative;
-
+  left: 593px;
   text-decoration: underline;
 }
 
@@ -94,6 +94,7 @@ ul {
   font-family: "Courier New", Courier, monospace;
   background-color: darkgoldenrod;
   font-weight: bold;
+   left: 593px;
 }
 
 .myname {
