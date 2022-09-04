@@ -91,7 +91,11 @@ ul {
   border: 45px;
 }
 
-.card-body {
+.fiveday-forecast {
+  margin-bottom: 100px;
+}
+
+.weekday {
   font-family: "Courier New", Courier, monospace;
   background-color: darkgoldenrod;
   font-weight: bold;
