@@ -36,7 +36,7 @@ header.innerHTML = `Today is ${day} ${month} ${date}th </br> Current time is ${h
 
 function displayForecast() {
   let forecastElement = document.querySelector("#forecast");
-  let forecastHTML = `<div class="column">`;
+  let forecastHTML = "";
   let days = ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday"];
   days.forEach(function (day) {
     forecastHTML =
