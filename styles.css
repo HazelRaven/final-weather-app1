@@ -40,9 +40,8 @@ header {
 
 .card-yuma {
   background-color: darkgoldenrod;
-  border-radius: 100px;
+
   margin-top: 30px;
-  padding-bottom: 200px;
 }
 .card-title {
   font-family: "Courier New", Courier, monospace;
