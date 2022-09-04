@@ -43,7 +43,7 @@ function displayForecast() {
     `
   <div class="column">
  <div class="card"
- id="forecast-one"
+ id="forecastOne"
 style="width: 12rem">
 <div class="card-body">
 <h5 class="Monday"><strong>tues</strong></h5>
