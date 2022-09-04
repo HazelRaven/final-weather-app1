@@ -44,7 +44,8 @@ function displayForecast() {
       ` <div class="column">
 <div class="card" style="width: 12rem">
  <div class="card-body">
- `<h5 class="Monday"><strong>&{days}</strong></h5>`
+ <h5 class="Monday">${days}
+ <strong></strong></h5>
    <p class="card-text">L: 92&#176; H: 110&#176;</p>
 </div>
  </div>
