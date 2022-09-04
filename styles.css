@@ -61,7 +61,6 @@ ul {
   text-align: center;
   position: relative;
   top: 40px;
-  border: 45px;
 }
 
 .card-body-quote {
@@ -86,6 +85,9 @@ ul {
   position: relative;
   left: 593px;
   text-decoration: underline;
+}
+
+.card {
   border: 45px;
 }
 
@@ -93,7 +95,6 @@ ul {
   font-family: "Courier New", Courier, monospace;
   background-color: darkgoldenrod;
   font-weight: bold;
-  border: 45px;
 }
 
 .myname {
