@@ -42,7 +42,7 @@ function displayForecast() {
  id="forecast-one"
 style="width: 12rem">
 <div class="card-body">
-<h5 class="Monday"><strong>Monday</strong></h5>
+<h5 class="Monday"><strong>TUESDAY</strong></h5>
  <p class="card-text">L: 92&#176; H: 110&#176;</p>
  </div>
 </div>`;
