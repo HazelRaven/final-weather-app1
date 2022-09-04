@@ -51,7 +51,7 @@ style="width: 12rem">
  </div>
 </div>
 </div>`;
-  forecastOneHTML = `</div>`;
+
   forecastElement.innerHTML = forecastOneHTML;
 }
 
