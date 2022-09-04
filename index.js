@@ -51,8 +51,6 @@ style="width: 12rem">
  </div>
 </div>
 </div>`;
-
-  forecastElement.innerHTML = forecastOneHTML;
 }
 
 function displayCurrentWeather(response) {
