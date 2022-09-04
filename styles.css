@@ -61,7 +61,9 @@ ul {
   text-align: center;
   position: relative;
   top: 40px;
+  border: 45px;
 }
+
 .card-body-quote {
   font-family: "Courier New", Courier, monospace;
   font-size: 40px;
