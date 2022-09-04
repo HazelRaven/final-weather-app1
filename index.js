@@ -42,7 +42,7 @@ function displayForecast() {
     forecastHTML =
       forecastHTML +
       ` <div class="card" style="width: 12rem">
- <div class="weekday">
+ <div class="forecast">
  <h5 class="Monday">${days}
  <strong></strong></h5>
    <p class="card-text">L: 92&#176; H: 110&#176;</p>
