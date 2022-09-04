@@ -34,6 +34,20 @@ let months = [
 let month = months[now.getMonth()];
 header.innerHTML = `Today is ${day} ${month} ${date}th </br> Current time is ${hours}:${minutes}:${seconds}`;
 
+function displayForecast() {
+  let forecastElement = document.querySelector("#forecast-One");
+  forecastElement.innerHTML = `
+  <div class="column">
+ <div class="card"
+ id="forecast-one"
+style="width: 12rem">
+<div class="card-body">
+<h5 class="Monday"><strong>Monday</strong></h5>
+ <p class="card-text">L: 92&#176; H: 110&#176;</p>
+ </div>
+</div>`;
+}
+
 function displayCurrentWeather(response) {
   let location = document.querySelector("#city");
   let temperature = document.querySelector("#temperature");
