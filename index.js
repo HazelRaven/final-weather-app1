@@ -41,7 +41,15 @@ function displayForecast() {
   days.forEach(function (day) {
     forecastHTML =
       forecastHTML +
-      ` <div class="column">
+      `
+<div class="card">
+  <div class="card-body">
+<h2><strong>5-Day Forecast</strong></h2> 
+</div>
+</div>
+</div>
+      
+<div class="column">
 <div class="card" style="width: 12rem">
  <div class="card-body">
  <h5 class="Monday">${days}
