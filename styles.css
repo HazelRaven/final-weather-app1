@@ -34,14 +34,15 @@ header {
 
 .card-today {
   position: relative;
-  bottom: 80px;
+  bottom: 90px;
   text-align: center;
 }
 
 .card-yuma {
   background-color: darkgoldenrod;
-  border-radius: 40px;
+  border-radius: 50px;
   margin-top: 50px;
+  padding-bottom: 100px;
 }
 .card-title {
   font-family: "Courier New", Courier, monospace;
