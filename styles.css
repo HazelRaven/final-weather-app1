@@ -33,9 +33,6 @@ header {
 
 .card-today {
   position: relative;
-  font-family: "Courier New", Courier, monospace;
-  background-color: darkgoldenrod;
-  font-weight: bold;
   text-align: center;
 }
 
@@ -93,7 +90,7 @@ ul {
   border: 45px;
 }
 
-.forecast {
+.card-body {
   font-family: "Courier New", Courier, monospace;
   background-color: darkgoldenrod;
   font-weight: bold;
