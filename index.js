@@ -35,11 +35,11 @@ let month = months[now.getMonth()];
 header.innerHTML = `Today is ${day} ${month} ${date}th </br> Current time is ${hours}:${minutes}:${seconds}`;
 
 function displayForecast() {
-  let forecastElement = document.querySelector("#forecast-One");
+  let forecastElement = document.querySelector("#forecastOne");
 
-  let forcastHTML = "hELLOW";
-  forcastHTML =
-    forecastHTML +
+  let forcastOneHTML = "hELLOW";
+  forcastOneHTML =
+    forecastOneHTML +
     `
   <div class="column">
  <div class="card"
