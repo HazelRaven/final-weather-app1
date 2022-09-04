@@ -95,10 +95,6 @@ ul {
   bottom: 550px;
 }
 
-.card {
-  border: 45px;
-}
-
 .card-body {
   font-family: "Courier New", Courier, monospace;
   background-color: darkgoldenrod;
