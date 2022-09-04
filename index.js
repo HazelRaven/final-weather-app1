@@ -35,7 +35,24 @@ let month = months[now.getMonth()];
 header.innerHTML = `Today is ${day} ${month} ${date}th </br> Current time is ${hours}:${minutes}:${seconds}`;
 
 function displayForecast() {
-  let forecastElement = document.querySelector("#forecastOne");
+  let forecastElement = document.querySelector("#forecast");
+  let forecastHTML = `<div class="column">`;
+  let days = ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday"];
+  days.forEach(function (day) {
+    forecastHTML =
+      forecastHTML +
+      ` <div class="column">
+<div class="card" style="width: 12rem">
+ <div class="card-body">
+ <h5 class="Monday"><strong>&{days}</strong></h5>
+   <p class="card-text">L: 92&#176; H: 110&#176;</p>
+</div>
+ </div>
+ </div> `;
+  });
+
+  forecastHTML = forecastHTML + `</div>`;
+  forecastElement.innerHTML = forecastHTML;
 }
 
 function displayCurrentWeather(response) {
@@ -86,3 +103,4 @@ let celsiusLink = document.querySelector("#celsius-link");
 celsiusLink.addEventListener("click", displayCelsiusTemp);
 
 search("Yuma");
+displayForecast();
