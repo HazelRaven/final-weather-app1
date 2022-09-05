@@ -53,9 +53,9 @@ function displayForecast(response) {
         ` <div class="card" style="width: 12rem">
  <div class="forecast-week">
  <h5 class="Monday"> ${formatDay(forecastDay.dt)}</h5> 
-  <p class="card-text"> ${Math.round(forecastDay.temp.min)} ${Math.round(
-          forecastDay.temp.max
-        )}</p><img
+  <p class="card-text"> Low:${Math.round(
+    forecastDay.temp.min
+  )} High:${Math.round(forecastDay.temp.max)}</p><img
 src="http://openweathermap.org/img/wn/${forecastDay.weather[0].icon}@2x.png"
 alt=""width="42"/>
  
