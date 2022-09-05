@@ -106,12 +106,14 @@ ul {
   font-family: "Courier New", Courier, monospace;
   background-color: darkgoldenrod;
   font-weight: bold;
+  padding: 15px;
+  text-decoration: underline;
 }
 
 .five-card {
   position: relative;
-  left: 593px;
-  bottom: 1007px;
+  left: 499px;
+  bottom: 1045px;
 }
 
 .myname {
