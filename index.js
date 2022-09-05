@@ -56,9 +56,9 @@ function displayForecast(response) {
  <img
 src="http://openweathermap.org/img/wn/${forecastDay.weather[0].icon}@2x.png"
 alt=""width="42"/>
- <p class="card-text"> ${forecastDay.temp.min} ${
+ <p class="card-text"> ${Math.round(forecastDay.temp.min)} ${Math.round(
           forecastDay.temp.max
-        } high: </p>
+        )}</p>
    
 </div>
 </div>`;
