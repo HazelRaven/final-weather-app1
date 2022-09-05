@@ -122,6 +122,8 @@ ul {
 
 .weekdays {
   text-decoration: underline;
+  font-family: "Courier New", Courier, monospace;
+  font-weight: bolder;
 }
 
 .myname {
