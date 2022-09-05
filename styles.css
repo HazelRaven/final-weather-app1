@@ -84,10 +84,12 @@ ul {
   position: relative;
   left: 593px;
   text-decoration: underline;
+}
+
+.forecast {
   font-family: "Courier New", Courier, monospace;
   background-color: darkgoldenrod;
   font-weight: bold;
-}
 }
 
 .card {
