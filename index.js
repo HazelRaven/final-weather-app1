@@ -34,6 +34,8 @@ let months = [
 let month = months[now.getMonth()];
 header.innerHTML = `Today is ${day} ${month} ${date}th </br> Current time is ${hours}:${minutes}:${seconds}`;
 
+function formatDay() {}
+
 function displayForecast(response) {
   let forecast = response.data.daily;
   let forecastElement = document.querySelector("#forecast");
@@ -48,7 +50,9 @@ function displayForecast(response) {
  <img
 src="http://openweathermap.org/img/wn/${forecastDay.weather[0].icon}@2x.png"
 alt=""width="42"/>
- <p class="card-text"> low; high: </p>
+ <p class="card-text"> ${forecastDay.temp.min} ${
+          forecastDay.temp.max
+        } high: </p>
    
 </div>
 </div>`;
