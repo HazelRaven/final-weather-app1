@@ -89,6 +89,7 @@ ul {
 .forecast-card {
   position: relative;
   left: 593px;
+  bottom: 790px;
 }
 
 .card {
@@ -111,9 +112,7 @@ ul {
   padding-right: 900px;
   position: relative;
   left: 700px;
-  bottom: 500px;
-  border: 45px;
-  border-radius: 50px;
+  bottom: 796px;
 }
 
 .myname {
