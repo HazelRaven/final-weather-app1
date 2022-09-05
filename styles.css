@@ -102,7 +102,14 @@ ul {
 }
 
 .fiveday-forecast {
-  color: blue;
+  font-family: "Courier New", Courier, monospace;
+  background-color: darkgoldenrod;
+  font-weight: bold;
+}
+
+.five-card {
+  position: relative;
+  left: 593px;
 }
 
 .myname {
