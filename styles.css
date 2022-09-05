@@ -95,6 +95,16 @@ ul {
   border: 45px;
 }
 
+.card-body {
+  font-family: "Courier New", Courier, monospace;
+  background-color: darkgoldenrod;
+  font-weight: bold;
+}
+
+.fiveday-forecast {
+  color: blue;
+}
+
 .myname {
   text-align: center;
   font-style: italic;
