@@ -35,7 +35,7 @@ let month = months[now.getMonth()];
 header.innerHTML = `Today is ${day} ${month} ${date}th </br> Current time is ${hours}:${minutes}:${seconds}`;
 
 function formatDay(timestamp) {
-  let newDate = new newDate(timestamp * 1000);
+  let date = new date(timestamp * 1000);
   let forecastDay = newDate.getDay();
   let days = ["Sun", "mon", "tues", "wed", "thur", "fri", "sat"];
 
@@ -52,7 +52,7 @@ function displayForecast(response) {
         forecastHTML +
         ` <div class="card" style="width: 12rem">
  <div class="forecast-week">
- <h5 class="Monday">Monday${formatDay(forecastDay.dt)}</h5>
+ <h5 class="Monday">Monday${formatDay(forecastDay.dt)}</h5> 
  <img
 src="http://openweathermap.org/img/wn/${forecastDay.weather[0].icon}@2x.png"
 alt=""width="42"/>
