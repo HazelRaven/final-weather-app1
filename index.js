@@ -83,9 +83,9 @@ function displayCurrentWeather(response) {
     `http://openweathermap.org/img/wn/${response.data.weather[0].icon}@2x.png`
   );
   iconElement.setAttribute("alt", response.data.weather[0].description);
-}
 
-getForecast(response.data.coord);
+  getForecast(response.data.coord);
+}
 
 function search(city) {
   let apiKey = "69eb1996b8122663b52f6fed57db9ae8";
