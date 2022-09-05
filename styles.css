@@ -108,8 +108,10 @@ ul {
 }
 
 .five-card {
-  left: 593px;
+  padding-right: 900px;
   position: relative;
+  left: 700px;
+  bottom: 500px;
 }
 
 .myname {
