@@ -51,12 +51,7 @@ alt=""width="42"/>
  <strong></strong></h5>
    
 </div>
- </div>
- </div>
- </div>
-</div>
-</div> 
-`;
+</div>`;
     }
   });
 
