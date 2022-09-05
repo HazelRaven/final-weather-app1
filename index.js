@@ -35,11 +35,11 @@ let month = months[now.getMonth()];
 header.innerHTML = `Today is ${day} ${month} ${date}th </br> Current time is ${hours}:${minutes}:${seconds}`;
 
 function formatDay(timestamp) {
-  let date = new date(timestamp * 1000);
-  let forecastDay = date.getDay();
-  let days = ["Sun", "mon", "tues", "wed", "thur", "fri", "sat"];
+  let date = new Date(timestamp * 1000);
+  let day = date.getDay();
+  let days = ["Sun", "Mon", "Tue", "Wed", "Thu", "Fri", "Sat"];
 
-  return days[forecastDay];
+  return days[day];
 }
 
 function displayForecast(response) {
