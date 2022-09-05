@@ -12,10 +12,6 @@ header {
   font-weight: bolder;
 }
 
-footer {
-  text-align: center;
-}
-
 .date-format {
   border: 25px;
 }
@@ -131,7 +127,7 @@ ul {
 }
 
 .myname {
-  text-align: left;
+  text-align: center;
   font-style: italic;
 }
 
