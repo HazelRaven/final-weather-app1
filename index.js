@@ -34,7 +34,8 @@ let months = [
 let month = months[now.getMonth()];
 header.innerHTML = `Today is ${day} ${month} ${date}th </br> Current time is ${hours}:${minutes}:${seconds}`;
 
-function displayForecast(response) {
+function displayForecast(response)
+console.log(response.data) {
   let forecastElement = document.querySelector("#forecast");
   let forecastHTML = "";
   let days = ["Mon", "Tue", "Wed", "Thur", "Fri"];
