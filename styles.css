@@ -12,6 +12,12 @@ header {
   font-weight: bolder;
 }
 
+footer {
+  display: block;
+  text-align: center;
+  margin: 0 auto;
+}
+
 .date-format {
   border: 25px;
 }
@@ -129,7 +135,6 @@ ul {
 .myname {
   text-align: left;
   font-style: italic;
-
 }
 
 ul {
