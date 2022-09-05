@@ -35,24 +35,29 @@ let month = months[now.getMonth()];
 header.innerHTML = `Today is ${day} ${month} ${date}th </br> Current time is ${hours}:${minutes}:${seconds}`;
 
 function displayForecast(response) {
-  console.log(response.data);
+  let forecast = response.data.daily;
   let forecastElement = document.querySelector("#forecast");
   let forecastHTML = "";
-  let days = ["Mon", "Tue", "Wed", "Thur", "Fri"];
-  days.forEach(function (days) {
-    forecastHTML =
-      forecastHTML +
-      ` <div class="card" style="width: 12rem">
+  forecast.forEach(function (forecastDay, index) {
+    if (index < 6) {
+      forecastHTML =
+        forecastHTML +
+        ` <div class="card" style="width: 12rem">
  <div class="forecast-week">
- <h5 class="Monday">${days}
+ <h5 class="Monday">${formatDay(forecastDay.dt)}
+ <img
+src="http://openweathermap.org/img/wn/${forecastDay.weather[0].icon}@2x.png"
+alt=""width="42"/>
  <strong></strong></h5>
-   <p class="card-text">L: 92&#176; H: 110&#176;</p>
+   
 </div>
  </div>
  </div>
  </div>
 </div>
-</div> `;
+</div> 
+`;
+    }
   });
 
   forecastHTML = forecastHTML + `</div>`;
