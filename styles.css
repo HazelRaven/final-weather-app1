@@ -116,6 +116,10 @@ ul {
   bottom: 1165px;
 }
 
+.card-text {
+  font-weight: bolder;
+}
+
 .myname {
   text-align: center;
   font-style: italic;
