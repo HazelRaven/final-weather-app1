@@ -52,7 +52,7 @@ function displayForecast(response) {
         forecastHTML +
         ` <div class="card" style="width: 12rem">
  <div class="forecast-week">
- <h5 class="Monday"> ${formatDay(forecastDay.dt)}</h5> 
+ <h5 class=""> ${formatDay(forecastDay.dt)}</h5> 
   <p class="card-text"> Low:${Math.round(
     forecastDay.temp.min
   )} High:${Math.round(forecastDay.temp.max)}</p><img
