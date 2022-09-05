@@ -120,6 +120,10 @@ ul {
   font-weight: bolder;
 }
 
+.weekdays {
+  text-decoration: underline;
+}
+
 .myname {
   text-align: center;
   font-style: italic;

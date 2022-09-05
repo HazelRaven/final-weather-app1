@@ -52,10 +52,10 @@ function displayForecast(response) {
         forecastHTML +
         ` <div class="card" style="width: 12rem">
  <div class="forecast-week">
- <h5 class=""> ${formatDay(forecastDay.dt)}</h5> 
-  <p class="card-text"> H:${Math.round(forecastDay.temp.max)} F˚ L:${Math.round(
-          forecastDay.temp.min
-        )} F˚</p><img
+ <h5 <div class="weekdays"> ${formatDay(forecastDay.dt)}</h5> 
+  <p <div class="card-text"> H:${Math.round(
+    forecastDay.temp.max
+  )} F˚ L:${Math.round(forecastDay.temp.min)} F˚</p><img
 src="http://openweathermap.org/img/wn/${forecastDay.weather[0].icon}@2x.png"
 alt=""width="42"/>
  
