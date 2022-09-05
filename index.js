@@ -35,6 +35,7 @@ let month = months[now.getMonth()];
 header.innerHTML = `Today is ${day} ${month} ${date}th </br> Current time is ${hours}:${minutes}:${seconds}`;
 
 function displayForecast(response) {
+  console.log(response.data);
   let forecastElement = document.querySelector("#forecast");
   let forecastHTML = "";
   let days = ["Mon", "Tue", "Wed", "Thur", "Fri"];
@@ -59,7 +60,6 @@ function displayForecast(response) {
 }
 
 function getForecast(coordinates) {
-  console.log(response.data);
   let apiKey = "69eb1996b8122663b52f6fed57db9ae8";
   let apiUrl = `https://api.openweathermap.org/data/2.5/onecall?lat=${coordinates.lat}&lon=${coordinates.lon}&appid=${apiKey}&units=imperial`;
   axios.get(apiUrl).then(displayForecast);
