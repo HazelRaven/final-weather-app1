@@ -37,14 +37,14 @@ header.innerHTML = `Today is ${day} ${month} ${date}th </br> Current time is ${h
 function displayForecast(response) {
   let forecast = response.data.daily;
   let forecastElement = document.querySelector("#forecast");
-  let forecastHTML = "";
+  let forecastHTML = `<div class="column"`;
   forecast.forEach(function (forecastDay, index) {
     if (index < 6) {
       forecastHTML =
         forecastHTML +
         ` <div class="card" style="width: 12rem">
  <div class="forecast-week">
- <h5 class="Monday">${formatDay(forecastDay.dt)}
+ <h5 class="Monday">${formatDay(forecastDay.dt)}</h5>
  <img
 src="http://openweathermap.org/img/wn/${forecastDay.weather[0].icon}@2x.png"
 alt=""width="42"/>
