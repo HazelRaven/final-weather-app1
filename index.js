@@ -34,10 +34,17 @@ let months = [
 let month = months[now.getMonth()];
 header.innerHTML = `Today is ${day} ${month} ${date}th </br> Current time is ${hours}:${minutes}:${seconds}`;
 
+function formatDay(date) {
+  let date = new Date(timestamp * 1000);
+  let day = date.getDay();
+  let days = ["mon", "tues", "wed", "thur", "fri", "sat"];
+  return days[day];
+}
+
 function displayForecast(response) {
   let forecast = response.data.daily;
   let forecastElement = document.querySelector("#forecast");
-  let forecastHTML = `<div class="column"`;
+  let forecastHTML = "";
   forecast.forEach(function (forecastDay, index) {
     if (index < 6) {
       forecastHTML =
