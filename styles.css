@@ -129,6 +129,9 @@ ul {
 .myname {
   text-align: center;
   font-style: italic;
+  display: block;
+  margin: 0 auto;
+  position: relative;
 }
 
 ul {
