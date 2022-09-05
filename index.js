@@ -44,11 +44,11 @@ function displayForecast(response) {
         forecastHTML +
         ` <div class="card" style="width: 12rem">
  <div class="forecast-week">
- <h5 class="Monday">${formatDay(forecastDay.dt)}</h5>
+ <h5 class="Monday">Monday</h5>
  <img
 src="http://openweathermap.org/img/wn/${forecastDay.weather[0].icon}@2x.png"
 alt=""width="42"/>
- <p class="card-text"> ${forecastDay.temp.max} ${forecastDay.temp.min}</p>
+ <p class="card-text"> low; high: </p>
    
 </div>
 </div>`;
