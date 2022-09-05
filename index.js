@@ -36,7 +36,7 @@ header.innerHTML = `Today is ${day} ${month} ${date}th </br> Current time is ${h
 
 function formatDay(timestamp) {
   let date = new date(timestamp * 1000);
-  let forecastDay = newDate.getDay();
+  let forecastDay = date.getDay();
   let days = ["Sun", "mon", "tues", "wed", "thur", "fri", "sat"];
 
   return days[forecastDay];
