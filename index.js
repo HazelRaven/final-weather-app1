@@ -55,7 +55,7 @@ function displayForecast(response) {
  <h5 class=""> ${formatDay(forecastDay.dt)}</h5> 
   <p class="card-text"> High:${Math.round(
     forecastDay.temp.max
-  )}F˚ Low:${Math.round(forecastDay.temp.min)}F˚</p><img
+  )} F˚ Low:${Math.round(forecastDay.temp.min)} F˚</p><img
 src="http://openweathermap.org/img/wn/${forecastDay.weather[0].icon}@2x.png"
 alt=""width="42"/>
  
